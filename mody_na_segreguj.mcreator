@@ -1,0 +1,38 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Lotmod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lotmod"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.mody_na_segreguj.lotmod": "Lotmod"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "mody_na_segreguj",
+    "modName": "mody na segreguj",
+    "version": "1.0.0",
+    "author": "Mateusz, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.16.1",
+    "modElementsPackage": "net.mcreator.modynasegreguj",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}
