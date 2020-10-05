@@ -22,8 +22,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.block.Block;
 
 import net.mcreator.modynasegreguj.item.SegregujSwordTool;
@@ -32,7 +30,6 @@ import net.mcreator.modynasegreguj.item.SegregujPickaxeTool;
 import net.mcreator.modynasegreguj.item.SegregujHoeTool;
 import net.mcreator.modynasegreguj.item.SegregujGemItem;
 import net.mcreator.modynasegreguj.item.SegregujAxeTool;
-import net.mcreator.modynasegreguj.item.SegregujArmorArmorMaterial;
 import net.mcreator.modynasegreguj.item.LotmodItemGroup;
 import net.mcreator.modynasegreguj.block.SegregujOreBlockBlock;
 import net.mcreator.modynasegreguj.block.SegregujOreBlock;
@@ -54,14 +51,6 @@ public class ModyNaSegregujMod implements ModInitializer {
 	public static final Block SegregujOreBlock_BLOCK = Registry.register(Registry.BLOCK, id("segreguj_ore_block"), new SegregujOreBlockBlock());
 	public static final BlockItem SegregujOreBlock_ITEM = Registry.register(Registry.ITEM, id("segreguj_ore_block"),
 			new BlockItem(SegregujOreBlock_BLOCK, new Item.Settings().group(ModyNaSegregujMod.Lotmod)));
-	public static final Item SegregujArmor_HELMET = Registry.register(Registry.ITEM, id("segreguj_armor"),
-			new ArmorItem(SegregujArmorArmorMaterial.SEGREGUJARMOR, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT))));
-	public static final Item SegregujArmor_CHESTPLATE = Registry.register(Registry.ITEM, id("segreguj_armor"),
-			new ArmorItem(SegregujArmorArmorMaterial.SEGREGUJARMOR, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT))));
-	public static final Item SegregujArmor_LEGGINGS = Registry.register(Registry.ITEM, id("segreguj_armor"),
-			new ArmorItem(SegregujArmorArmorMaterial.SEGREGUJARMOR, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT))));
-	public static final Item SegregujArmor_BOOTS = Registry.register(Registry.ITEM, id("segreguj_armor"),
-			new ArmorItem(SegregujArmorArmorMaterial.SEGREGUJARMOR, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT))));
 	public static final Item SegregujPickaxe_TOOL = Registry.register(Registry.ITEM, id("segreguj_pickaxe"), SegregujPickaxeTool.INSTANCE);
 	public static final Item SegregujAxe_TOOL = Registry.register(Registry.ITEM, id("segreguj_axe"), SegregujAxeTool.INSTANCE);
 	public static final Item SegregujSword_TOOL = Registry.register(Registry.ITEM, id("segreguj_sword"), SegregujSwordTool.INSTANCE);
