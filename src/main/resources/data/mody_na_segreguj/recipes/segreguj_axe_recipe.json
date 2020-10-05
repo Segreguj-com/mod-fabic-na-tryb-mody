@@ -1,0 +1,30 @@
+{
+  "group": "mody_na_segreguj",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mody_na_segreguj:segreguj_gem"
+    },
+    "1": {
+      "item": "mody_na_segreguj:segreguj_gem"
+    },
+    "2": {
+      "item": "mody_na_segreguj:segreguj_gem"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mody_na_segreguj:segreguj_axe",
+    "count": 1
+  }
+}

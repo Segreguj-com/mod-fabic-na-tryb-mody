@@ -9,13 +9,214 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lotmod"
+    },
+    {
+      "name": "SegregujGem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_gem"
+    },
+    {
+      "name": "SegregujOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_ore"
+    },
+    {
+      "name": "SegregujOreBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_ore_block"
+    },
+    {
+      "name": "SegregujOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_ore_block_recipe"
+    },
+    {
+      "name": "SegregujBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_block_ore_recipe"
+    },
+    {
+      "name": "SegregujOreSmelting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_ore_smelting"
+    },
+    {
+      "name": "SegregujPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_pickaxe"
+    },
+    {
+      "name": "SegregujAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_axe"
+    },
+    {
+      "name": "SegregujSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_sword"
+    },
+    {
+      "name": "SegregujShovel",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_shovel"
+    },
+    {
+      "name": "SegregujHoe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_hoe"
+    },
+    {
+      "name": "SegregujPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_pickaxe_recipe"
+    },
+    {
+      "name": "SegregujAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_axe_recipe"
+    },
+    {
+      "name": "SegregujSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_sword_recipe"
+    },
+    {
+      "name": "SegregujShovelRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_shovel_recipe"
+    },
+    {
+      "name": "SegregujHoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_hoe_recipe"
+    },
+    {
+      "name": "SegregujArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_armor"
+    },
+    {
+      "name": "SegregujArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_armor_helmet_recipe"
+    },
+    {
+      "name": "SegregujArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_armor_body_recipe"
+    },
+    {
+      "name": "SegregujArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_armor_leggings_recipe"
+    },
+    {
+      "name": "SegregujArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "segreguj_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.mody_na_segreguj.lotmod": "Lotmod"
+      "block.mody_na_segreguj.segreguj_ore_block": "Block of Segreguj",
+      "item.mody_na_segreguj.segreguj_armorboots": "Segreguj Boots",
+      "item.mody_na_segreguj.segreguj_armorhelmet": "Segreguj Helmet",
+      "itemGroup.mody_na_segreguj.lotmod": "Lotmod",
+      "item.mody_na_segreguj.segreguj_shovel": "Segreguj Shovel",
+      "item.mody_na_segreguj.segreguj_hoe": "Segreguj Hoe",
+      "item.mody_na_segreguj.segreguj_sword": "Segreguj Sword",
+      "item.mody_na_segreguj.segreguj_armorbody": "Segreguj Chestplate",
+      "item.mody_na_segreguj.segreguj_armorlegs": "Segreguj Leggings",
+      "item.mody_na_segreguj.segreguj_gem": "Segreguj",
+      "item.mody_na_segreguj.segreguj_pickaxe": "Segreguj Pickaxe",
+      "item.mody_na_segreguj.segreguj_axe": "Segreguj Axe",
+      "block.mody_na_segreguj.segreguj_ore": "Segreguj Ore"
     }
   },
   "workspaceSettings": {

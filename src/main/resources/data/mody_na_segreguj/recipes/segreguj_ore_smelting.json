@@ -1,0 +1,10 @@
+{
+  "group": "mody_na_segreguj",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mody_na_segreguj:segreguj_ore"
+  },
+  "result": "mody_na_segreguj:segreguj_gem"
+}

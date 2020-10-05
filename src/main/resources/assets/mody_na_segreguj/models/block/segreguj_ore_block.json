@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mody_na_segreguj:blocks/segreguj_ore_block",
+    "particle": "mody_na_segreguj:blocks/segreguj_ore_block"
+  }
+}

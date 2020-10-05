@@ -1,0 +1,13 @@
+{
+  "group": "mody_na_segreguj",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mody_na_segreguj:segreguj_ore_block"
+    }
+  ],
+  "result": {
+    "item": "mody_na_segreguj:segreguj_gem",
+    "count": 9
+  }
+}
